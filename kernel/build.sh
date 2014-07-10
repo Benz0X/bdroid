@@ -2,6 +2,6 @@
 
 export ARCH=arm
 export SUBARCH=arm
-export CROSS_COMPILE=arm-none-eabi-
-make wave_s8500_defconfig
+export CROSS_COMPILE=/home/nils/test/toolchain/arm-2009q3/bin/arm-none-eabi-
+make wave_s8530_defconfig
 make -j8
