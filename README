@@ -2,3 +2,4 @@ To build you have to get toolchain installed and its "bin" directory added to yo
 Execute /kernel/build.sh
 If you want to build for S8530 change config name in build.sh before building properly.
 
+SDcard must be Fat32 and 2 Ext 2 partition, and system must be on first Ext 2 partition. 
